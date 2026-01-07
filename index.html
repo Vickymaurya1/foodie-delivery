@@ -15,10 +15,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
     />
-    
+
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
-    
   </head>
   <body>
     <!-- Header PART -->
@@ -186,13 +184,13 @@
             <img src="delivery-boy-with-phone.png" />
           </div>
 
-          <div class="content">
+          <div class="review-container">
             <h5>Our reviews</h5>
             <h2>What they say</h2>
 
-            <div class="review-container">
+           
               <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper mt-4">
                   <div class="swiper-slide">
                     <div class="flex gap-2">
                       <div class="profile">
@@ -207,7 +205,7 @@
                           <i class="fa-solid fa-star"></i>
                         </div>
                       </div>
-                      <p>
+                      <p class="para">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Laborum officia, molestias odi
                       </p>
@@ -228,7 +226,7 @@
                           <i class="fa-solid fa-star"></i>
                         </div>
                       </div>
-                      <p>
+                      <p class="para">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Laborum officia, molestias odi
                       </p>
@@ -249,25 +247,153 @@
                           <i class="fa-solid fa-star"></i>
                         </div>
                       </div>
-                      <p>
+                      <p class="para">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Laborum officia, molestias odi
                       </p>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+
+                <div class="flex between">
+                  <a href="#" class="arrow" id="prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </a>
+                  <a href="#" class="arrow" id="next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
               </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="app-container flex between">
+            <div class="image-container">
+              <img src="mobile-app.png" />
+            </div>
+            <div class="content">
+              <h5>Our Application</h5>
+              <h2>
+                Simple way To <br />
+                Order Your Food
+              </h2>
+              <p class="para">
+                Discover food wherever and whenever <br />
+                and get food delivery quickly
+              </p>
+              <a href="#" class="btn">Get the App</a>
             </div>
           </div>
         </div>
       </section>
     </main>
 
+    <section>
+      <div class="wrapper p-top">
+        <div class="text-center">
+          <h5>Our subscribe</h5>
+          <h2>Subscribe to newsletter</h2>
+          <p class="para m-auto">
+            we recommend you to subscribe our newletter , drop your email below
+          </p>
+
+          <label class="input-container flex">
+            <input type="email" name = "email" id="email"
+            placeholder="Enter your Email address" autocomplete="off">
+            <a href="#" class="btn">Subscribe</a>
+          </label>
+        </div>
+      </div>
+    </section>
+
     <!-- FOOTER PART -->
-    <footer></footer>
+    <footer>
+      <div class="footer-container">
+        <div class="flex wrapper gap-4" >
+          <div class="footer-wrapper">
+            <a href="#" class="logo">Foodie</a>
+             <p class="mt-one-half" >
+              We will fill your tummy with delicious <br />
+              food with fast delivery
+            </p>
+            <div class="flex gap-2 mt-one-half">
+             
+
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </a>
+            </div>
+          </div>
+
+          <ul class="footer-wrapper">
+            <li>
+              <h4>Our Menu</h4>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Special</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Popular</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Category</a>
+            </li>
+          </ul>
+
+          <ul class="footer-wrapper">
+            <li>
+              <h4>Company</h4>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Why foodie</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Partner with us</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">About us</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">FAQ's</a>
+            </li>
+          </ul>
+
+          <ul class="footer-wrapper">
+            <li>
+              <h4>Support</h4>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Accoutl</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Support center</a>
+            </li>
+            
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Feedback</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
