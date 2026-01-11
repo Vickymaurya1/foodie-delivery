@@ -1,3 +1,50 @@
-{
-    "liveServer.settings.port": 5501
-}
+[
+    {
+        "id" : 1,
+        "name" : "Double Beef Burger",
+        "price" : "$9.67",
+        "image" : "burger.png"
+    },
+     {
+        "id" : 2,
+        "name" : "Veggie Pizza",
+        "price" : "$10.99",
+        "image" : "pizza.png"
+    },
+     {
+        "id" : 3,
+        "name" : "Fried Chicken",
+        "price" : "$13.45",
+        "image" : "fried-chicken.png"
+    },
+     {
+        "id" : 4,
+        "name" : "chicken Roll",
+        "price" : "$7.50",
+        "image" : "chinken-roll.png"
+    },
+     {
+        "id" : 5,
+        "name" : "Sub-Sanwich",
+        "price" : "$6.99",
+        "image" : "saniwch.png"
+    },
+     {
+        "id" : 6,
+        "name" : "Chicken Lasagna",
+        "price" : "$16.45",
+        "image" : "lasagna.png"
+    },
+     {
+        "id" : 7,
+        "name" : "Itallian Sphaghetti",
+        "price" : "$7.65",
+        "image" : "spaghetti.png"
+    },
+     {
+        "id" : 8,
+        "name" : "Spring Roll",
+        "price" : "$9.31",
+        "image" : "spring-roll.png"
+    }
+]
